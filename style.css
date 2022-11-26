@@ -1,0 +1,79 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+.container{
+    background-color: rgb(238, 234, 234);
+    max-width:60%;
+    margin:auto;
+    min-height: 100vh;
+    padding:30px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px
+}
+#title,#description{
+    padding:10px;
+    font:100 1.3rem "Times";
+    border:none;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    outline:none;
+
+}
+#description{
+    border: 1px solid
+}
+button{
+    outline: none;
+    color:white;
+    background-color: brown;
+    padding:10px;
+    font:600 1.3rem sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: blue;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.task{
+    background-color:rgba(244, 248, 200, 0.7);
+    padding: 20px;
+    font:100 1.3rem "Franklin Gothic";
+    margin:2vmax;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.task span{
+    color: rgba(0,0,0,0.632);
+}
+.delbtn{
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red; 
+    padding:10px;
+    cursor: pointer;
+    border-radius: 100%;
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
